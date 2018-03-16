@@ -138,6 +138,7 @@ Merekrut tim-tim ahli di bidang garment secara selektif untuk tujuan memperkuat 
         
           <header class="heading">&nbsp&nbsp&nbsp&nbsp&nbsp <b>Product Yang Di Tawarkan JaketCompany</b><i></i></header>
            <header class="heading">&nbsp&nbsp&nbsp&nbsp&nbsp <td> product yang kami tampilkan di bawah merupakan upload terbaru dan dapat dipesan </td><i></i></header>
+           <header class="heading">&nbsp&nbsp&nbsp&nbsp&nbsp <td> hubungi nomor yang berada di bawah halaman ini </td><i></i></header>
           
           <br>
           <br>
@@ -150,7 +151,7 @@ Merekrut tim-tim ahli di bidang garment secara selektif untuk tujuan memperkuat 
             <li class="one_quarter">
 
             <h2><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u></h2>
-            <img src="/img/img7/{{$data->cover}}">
+            <img src="/img/img7/{{$data->cover}}" style="height: 100  width:50">
             <br>
             <br>
             <center><h1 class="heading"><b><u>{!!$data->nama_product!!}</u></b></h1></center>
@@ -239,7 +240,7 @@ Merekrut tim-tim ahli di bidang garment secara selektif untuk tujuan memperkuat 
   <div id="copyright" class="clear"> 
     <!-- ################################################################################################ -->
     <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <p class="fl_right">JaketCompany<a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates"></a></p>
     <!-- ################################################################################################ -->
   </div>
 </div>
