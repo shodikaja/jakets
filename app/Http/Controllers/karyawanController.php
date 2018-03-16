@@ -49,7 +49,7 @@ public function index(Request $request, Builder $htmlBuilder)
     ->addColumn(['data' => 'nama', 'name'=>'nama', 'title'=>'Nama Karyawan'])
     ->addColumn(['data' => 'alamat', 'name'=>'alamat', 'title'=>'Alamat'])
     ->addColumn(['data' => 'email', 'name'=>'email', 'title'=>'Email'])
-    ->addColumn(['data' => 'password', 'name'=>'password', 'title'=>'Password'])
+    
 
     ->addColumn(['data' => 'action', 'name'=>'action', 'title'=>'', 'orderable'=>false, 'searchable'=>false])
     ->addColumn(['data' => 'delete', 'name'=>'delete', 'title'=>'', 'orderable'=>false, 'searchable'=>false]);
@@ -191,6 +191,12 @@ public function index(Request $request, Builder $htmlBuilder)
      */
     public function destroy($id)
     {
+
+         $user = user::findOrFail($id);
+         user::destroy($id);
+
+         
+
         
         $karyawan= karyawan::find($id);
         if(!karyawan:: destroy($id))return redirect()->back(); 
