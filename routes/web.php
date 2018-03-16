@@ -24,6 +24,7 @@ Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'role:admin']], function
 	Route::resource('bgquotes', 'BgQuotesController');
 	Route::resource('Header', 'HeaderController');
 	Route::resource('Product', 'ProductController');
+	Route::resource('karyawan', 'karyawanController');
 });
 Route::group(['prefix'=>'karyawan', 'middleware'=>['auth', 'role:karyawan|admin']], function () {
 	Route::resource('Product', 'ProductController');

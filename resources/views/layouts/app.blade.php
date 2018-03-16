@@ -63,6 +63,7 @@
                             @endif
                             @role('admin')
                             <li><a href="{{ route('Product.index') }}">Product</a></li>
+                            <li><a href="{{ route('karyawan.index') }}">Karyawan</a></li>
                              
                              <li><a href="{{ route('Header.index') }}">Header</a></li>
 
