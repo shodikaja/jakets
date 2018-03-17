@@ -72,6 +72,10 @@
                                 <ul class="dropdown-menu">    
                              <li><a href="{{ route('quotes.index') }}">Quotes</a></li>
                              <li><a href="{{ route('bgquotes.index') }}">Background Quotes</a></li>
+                         </ul>
+
+                         <li><a href="{{ url('admin/chat') }}">Chat</a></li>
+
 
                          
                               @endrole

@@ -142,5 +142,10 @@ $Header = Header::select(['id','text_besar','text_kecil','background']);
     {
         //
     }
+
+     public function chat()
+    {
+        return view('chat');
+    }
 }
             
