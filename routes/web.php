@@ -25,12 +25,15 @@ Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'role:admin']], function
 	Route::resource('Header', 'HeaderController');
 	Route::resource('Product', 'ProductController');
 	Route::resource('karyawan', 'karyawanController');
-	Route::get('chat', 'HeaderController@chat');
+
 });
 Route::group(['prefix'=>'karyawan', 'middleware'=>['auth', 'role:karyawan|admin']], function () {
 	Route::resource('Product', 'ProductController');
+
 });
 
 Route::resource('user', 'GuestsController@services');
 Route::resource('admin', 'GuestsController@admin');
 Route::get('/model/{id}', array('as' => 'showperkategori', 'uses' =>'GuestsController@showperkategori')); 
+
+Route::get('chat', 'HeaderController@chat');

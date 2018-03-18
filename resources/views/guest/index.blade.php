@@ -151,7 +151,7 @@ Merekrut tim-tim ahli di bidang garment secara selektif untuk tujuan memperkuat 
             <li class="one_quarter">
 
             <h2><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u></h2>
-            <img src="/img/img7/{{$data->cover}}" style="height: 100  width:50">
+            <h1><img src="/img/img7/{{$data->cover}}" style="height: 100  width:50"></h1>
             <br>
             <br>
             <center><h1 class="heading"><b><u>{!!$data->nama_product!!}</u></b></h1></center>
@@ -168,28 +168,9 @@ Merekrut tim-tim ahli di bidang garment secara selektif untuk tujuan memperkuat 
       </div>
          <figcaption>Gallery Product JaketCompany</figcaption>
         </div>
-
-
-    <!-- ################################################################################################ -->
-    <hr class="btmspace-50">
-    <!-- ################################################################################################ -->
-   
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="bgded" style="background-image:url('images/demo/backgrounds/03.png')"> 
-  <!-- ################################################################################################ -->
-  <div class="wrapper overlay dkgrey">
-    <div id="socialbox" class="clear"> 
-      <!-- ################################################################################################ -->
-      
-      <!-- ################################################################################################ -->
-    </div>
-  </div>
+<section class="page-section cta"><center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2135998910985!2d107.61990731363433!3d-6.984100170331682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9a7522b0de1%3A0x6a085e3964174e3b!2sHoax+Cuiiiih!5e0!3m2!1sid!2sid!4v1521341970705" width="1750" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+</section>
   
   <div class="wrapper overlay white">
     <footer id="footer" class="clear"> 
@@ -234,6 +215,9 @@ Merekrut tim-tim ahli di bidang garment secara selektif untuk tujuan memperkuat 
   </div>
   <!-- ################################################################################################ -->
 </div>
+
+
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row5">

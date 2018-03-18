@@ -73,12 +73,13 @@
                              <li><a href="{{ route('quotes.index') }}">Quotes</a></li>
                              <li><a href="{{ route('bgquotes.index') }}">Background Quotes</a></li>
                          </ul>
+                         @endrole
 
-                         <li><a href="{{ url('admin/chat') }}">Chat</a></li>
+                         <li><a href="{{ url('/chat') }}">Chat</a></li>
 
 
                          
-                              @endrole
+                              
 
                                @role('karyawan')
                             <li><a href="{{ route('Product.index') }}">Product</a></li>
